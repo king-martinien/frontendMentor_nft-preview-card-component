@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+:root {
+  --clr-soft-blue: hsl(215, 51%, 70%);
+  --clr-Cyan: hsl(178, 100%, 50%);
+  --clr-very-dark-blue: hsl(217, 54%, 11%);
+  --clr-very-dark-blue: hsl(216, 50%, 16%);
+  --clr-very-dark-blue: hsl(215, 32%, 27%);
+  --clr-white: hsl(0, 0%, 100%);
+  --family-outfit: Outfit;
+  --paragraph-size: 18;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-color: var(--clr-Cyan);
+  color: var(--clr-white);
+}
+
+*::selection {
+  background-color: var(--clr-Cyan);
+  color: var(--clr-white);
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--family-outfit);
+  font-size: var(--paragraph-size);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

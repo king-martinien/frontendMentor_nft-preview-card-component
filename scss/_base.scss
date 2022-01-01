@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: var(--clr-Cyan);
+  color: var(--clr-white);
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--family-outfit);
+  font-size: var(--paragraph-size);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
