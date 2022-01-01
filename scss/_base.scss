@@ -7,8 +7,8 @@
 }
 
 *::selection {
-  background-color: var(--clr-Cyan);
-  color: var(--clr-white);
+  background-color: var(--clr-white);
+  color: var(--clr-very-dark-blue);
 }
 
 html,
@@ -23,6 +23,10 @@ a {
 body {
   font-family: var(--family-outfit);
   font-size: var(--paragraph-size);
+  background-color: var(--clr-very-dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
